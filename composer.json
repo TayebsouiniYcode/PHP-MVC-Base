@@ -1,0 +1,19 @@
+{
+    "name": "youcode/tayebsouini",
+    "description": "this is a simple packages for testing composer",
+    "type": "mvc-framework",
+    "license": "free to use",
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "tayeb souini"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
